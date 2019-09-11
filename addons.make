@@ -1,0 +1,4 @@
+ofxGui
+ofxHomography
+ofxOcrad
+ofxSyphon
