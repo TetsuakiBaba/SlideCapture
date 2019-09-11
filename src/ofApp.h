@@ -1,9 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxGui.h"
 #include "ofxHomography.h"
-#include "ofxOcrad.h"
 #include "ofxSyphon.h"
 
 
@@ -43,7 +41,7 @@ public:
 
     
     ofVideoGrabber camera;
-    ofImage image_test;
+    ofImage image;
     
     ofPoint selectedCorners[4];
     ofPoint originalCorners[4];
@@ -53,10 +51,6 @@ public:
     int id_selected_corner;
     ofFbo fbo;
     ofPolyline p_selected;
-    ofPixels pixels_screen;
-    ofImage image_screen;
-    ofImage image_ocr;
-    ofxOcrad ocr;
     
     ofTexture tex;
     ofxSyphonServer server_slide;

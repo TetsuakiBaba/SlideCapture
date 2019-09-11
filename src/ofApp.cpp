@@ -34,7 +34,7 @@ void ofApp::setup(){
     fbo.allocate(camera.getWidth(), camera.getHeight());
     server_slide.setName("Slide");
     server_full.setName("Full");
-    font.load(ofToDataPath("DIN Alternate Bold.ttf"), 18);
+    font.load(ofToDataPath("DIN Alternate Bold.ttf"), 12);
     
 }
 

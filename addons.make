@@ -1,4 +1,2 @@
-ofxGui
 ofxHomography
-ofxOcrad
 ofxSyphon
